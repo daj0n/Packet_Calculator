@@ -2,3 +2,4 @@
 A tool to calculate your credits
 
 # Installation
+git clone https://github.com/daj0n/Packet_Calculator.git
