@@ -1,0 +1,37 @@
+#!/bin/python3
+
+# new line function
+def nl():
+    print("\n")
+
+
+
+# current page = cp
+# last page question = lpq
+# inital page = ip
+# last page = lp
+cp = input("What is your current page number?: ")
+lpq = input("What is the last page number?: ")
+
+nl()
+
+
+ip = int(cp)
+lp = int(lpq)
+
+
+
+
+# amount of pages left = aopl
+aopl = int(lp - ip)
+print("The amount of pages you have left : ", aopl)
+
+nl()
+
+
+# d = real duration
+# ppd = pages per day
+duration = input("How many days do you want this packet to take?: ")
+d = int(duration)
+ppd = aopl / d
+print("This is how many pages you have to do per day: ", ppd)
